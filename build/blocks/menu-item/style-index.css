@@ -1,0 +1,1 @@
+.menu-item{position:relative}.menu-item .submenu:empty{display:none!important}.menu-item .submenu{background:var(--color-light);display:none;min-width:200px;padding:10px;position:absolute;right:0}.menu-item:hover .submenu{display:block}

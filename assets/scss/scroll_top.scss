@@ -1,0 +1,33 @@
+.scroll-to-top {
+    position: fixed;
+    right: 50px;
+    bottom: 30px;
+    font-size: 25px;
+    z-index: 50;
+    border: solid 1px var(--color-1);
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-1);
+    cursor: pointer;
+    transition: background-color ease 0.5s, border ease 0.5s, color ease 0.5s;
+
+    &:hover {
+        border: solid 1px var(--color-1);
+        background-color: var(--color-1);
+        color: var(--color-light);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .scroll-to-top {
+        right: 20px;
+        bottom: 20px;
+        font-size: 18px;
+        width: 40px;
+        height: 40px;
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "apiVersion": 2,
+    "name": "templierstudiov2-theme/space",
+    "title": "Espacement",
+    "category": "custom-category",
+    "icon": "editor-break",
+    "description": "Bloc espacement",
+    "supports": {
+        "align": true,
+        "html": false
+    },
+    "editorScript": "file:./index.js"
+}

@@ -1,0 +1,83 @@
+.home {
+    .section-1 {
+        display: flex;
+        align-items: center;
+        height: 100vh;
+
+        .baseline {
+            background: #ef44441f !important;
+        }
+    }
+
+    .section-2 {
+        .card {
+            background-color: #ffffff0d !important;
+            border: solid 1px #ffffff1a !important;
+            transition: all 0.4s ease;
+
+            .txt-style-sous-titre {
+                font-weight: 700 !important;
+            }
+
+            &:hover {
+                transform: scale(1.05);
+                box-shadow:
+                    0 10px 15px -3px rgba(220, 38, 38, 0.25),
+                    0 4px 6px -4px rgba(220, 38, 38, 0.25);
+            }
+        }
+    }
+
+    .section-3 {
+        background: #0003 !important;
+
+        .card {
+            background-color: #ffffff0d !important;
+            border: solid 1px #ffffff1a !important;
+            transition: all 0.4s ease;
+
+            >div {
+                width: 100%;
+            }
+
+            .icon {
+                background: #ef44441f !important;
+            }
+
+            .txt-style-sous-titre {
+                font-weight: bold !important;
+            }
+
+            &:hover {
+                transform: scale(1.05);
+            }
+        }
+
+        .separator-block {
+            max-width: 70px !important;
+            border-bottom-width: 2px !important
+        }
+    }
+
+    .section-4 {
+        .baseline {
+            background: #ef44441f !important;
+        }
+
+        .formulaire {
+            background: #ef44441f !important;
+
+            .forminator-ui {
+                display: block !important;
+
+                .forminator-field {
+                    label {
+                        color: var(--color-light) !important;
+                        font-family: var(--font-1) !important;
+                        font-size: 1rem !important;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,1 @@
+.image-block{display:flex}@media screen and (max-width:768px){.image-block img{height:var(--heightMobile,100%)!important;width:var(--widthMobile,100%)!important}}

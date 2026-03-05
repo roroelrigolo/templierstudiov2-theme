@@ -1,0 +1,13 @@
+{
+  "apiVersion": 2,
+  "name": "templierstudiov2-theme/image",
+  "title": "Image",
+  "category": "format-image",
+  "icon": "editor-textcolor",
+  "description": "Bloc image",
+  "supports": {
+    "align": true,
+    "html": false
+  },
+  "editorScript": "file:./index.js"
+}

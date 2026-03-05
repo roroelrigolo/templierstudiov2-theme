@@ -1,0 +1,13 @@
+{
+  "apiVersion": 2,
+  "name": "templierstudiov2-theme/posts",
+  "title": "Posts",
+  "category": "custom-category",
+  "icon": "index-card",
+  "description": "Bloc posts",
+  "supports": {
+    "align": true,
+    "html": false
+  },
+  "editorScript": "file:./index.js"
+}

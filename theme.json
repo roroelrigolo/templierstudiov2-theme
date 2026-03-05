@@ -1,0 +1,26 @@
+{
+  "version": 3,
+  "settings": {
+    "blocks": {
+      "core/navigation": {
+        "enabled": false
+      }
+    },
+    "color": {
+      "palette": []
+    }
+  },
+  "styles": {},
+  "templateParts": [
+    {
+      "area": "header",
+      "name": "header",
+      "title": "Header"
+    },
+    {
+      "area": "footer",
+      "name": "footer",
+      "title": "Footer"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "apiVersion": 2,
+  "name": "templierstudiov2-theme/accordion",
+  "title": "Accordéon",
+  "category": "custom-category",
+  "icon": "menu",
+  "description": "Bloc Accordéon",
+  "supports": {
+    "align": true,
+    "html": false
+  },
+  "editorScript": "file:./index.js"
+}

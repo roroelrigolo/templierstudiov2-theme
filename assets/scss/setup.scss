@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --color-1: #DC2626;
+    --color-2: #fecaca;
+    --color-3: #EF4444;
+    --color-4: #7c3aed;
+    --color-5: #a78bfa;
+    --color-light: #ffffff;
+    --color-dark: #0F0D15;
+    --color-gray: #E8E8E8;
+
+    --font-1: "Inter", sans-serif;
+}
+
+body {
+    background-color: var(--color-dark) !important;
+}
+
+.bille-1,
+.bille-2,
+.bille-3,
+.bille-4 {
+    position: fixed;
+    border-radius: 50% !important;
+    background: radial-gradient(circle, var(--color-1), var(--color-dark));
+    opacity: 0.2;
+    filter: blur(40px);
+}
+
+.bille-1 {
+    top: 10%;
+    left: 5rem;
+    width: 150px !important;
+    height: 150px !important;
+}
+
+.bille-2 {
+    top: 20%;
+    right: 5rem;
+    width: 110px !important;
+    height: 110px !important;
+}
+
+.bille-3 {
+    bottom: 30%;
+    left: 7rem;
+    width: 80px !important;
+    height: 80px !important;
+}
+
+.bille-2 {
+    bottom: 20%;
+    right: 3rem;
+    width: 150px !important;
+    height: 150px !important;
+}
+
+div {
+    break-inside: avoid;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0 !important;
+}
+
+.wp-site-blocks a {
+    color: var(--color-2) !important;
+    text-underline-offset: 4px;
+    transition: color ease 0.3s;
+    font-family: var(--txt-p-font-family);
+    font-size: var(--txt-p-font-size);
+    line-height: var(--txt-p-line-height);
+    font-weight: var(--txt-p-font-weight);
+}
+
+.wp-site-blocks a:hover {
+    color: var(--color-light) !important;
+}
+
+.block-hyperlink {
+    text-decoration: none !important;
+}
+
+div[style*="background:#071248"] .text-block a,
+div[style*="background: center center / cover rgb(7, 18, 72)"] .text-block a {
+    color: var(--color-light) !important;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+div[style*="background:#071248"] .text-block a:hover,
+div[style*="background: center center / cover rgb(7, 18, 72)"] .text-block a:hover {
+    text-decoration: underline !important;
+    color: #ffffff8a !important;
+}
+
+.relative {
+    position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 0 !important;
+}
+
+.wp-block-image {
+    margin: 0 !important;
+}
+
+.wp-block-image img {
+    width: 100%;
+}
+
+#wpadminbar a {
+    color: #f0f0f1 !important;
+}
+
+.pagination {
+    margin-top: 30px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pagination .page-numbers {
+    border: solid 1px var(--color-1);
+    color: var(--color-1);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination .page-numbers.current,
+.pagination .page-numbers:hover {
+    background-color: var(--color-1);
+    color: var(--color-light) !important;
+}
+
+.pagination .next.page-numbers,
+.pagination .prev.page-numbers {
+    width: auto;
+    padding: 0 10px;
+}
+
+@media (min-width: 768px) {
+    .d-mobile-block {
+        display: none !important;
+        ;
+    }
+}
+
+@media (max-width: 768px) {
+    .reverse-mobile>.container-fluid {
+        flex-direction: column-reverse !important;
+    }
+
+    .d-mobile-none {
+        display: none !important;
+    }
+
+    .d-mobile-block {
+        display: block !important;
+        ;
+    }
+}

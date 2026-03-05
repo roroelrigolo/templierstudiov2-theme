@@ -1,0 +1,29 @@
+.txt-style-p {
+    font-family: var(--font-1);
+    font-size: 1.125rem;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.txt-style-h1 {
+    font-family: var(--font-1);
+    font-size: 3.75rem;
+    line-height: 1;
+    font-weight: 800;
+    letter-spacing: -.025em;
+    text-transform: capitalize;
+}
+
+.txt-style-h2 {
+    font-family: var(--font-1);
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.txt-style-sous-titre {
+    font-family: var(--font-1);
+    font-size: 1.25rem;
+    line-height: 1.2;
+    font-weight: 400;
+}

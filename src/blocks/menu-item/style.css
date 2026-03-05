@@ -1,0 +1,20 @@
+.menu-item {
+    position: relative;
+}
+
+.menu-item .submenu:empty {
+    display: none !important;
+}
+
+.menu-item .submenu {
+    display: none;
+    position: absolute;
+    right: 0;
+    min-width: 200px;
+    padding: 10px;
+    background: var(--color-light);
+}
+
+.menu-item:hover .submenu {
+    display: block;
+}

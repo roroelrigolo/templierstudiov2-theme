@@ -1,0 +1,19 @@
+{
+    "name": "templierstudiov2-theme",
+    "version": "1.0.0",
+    "description": "Thème base",
+    "main": "index.js",
+    "scripts": {
+        "build": "wp-scripts build",
+        "start": "wp-scripts start"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@wordpress/scripts": "^29.0.0"
+    },
+    "dependencies": {
+        "@wordpress/icons": "^10.7.0"
+    }
+}

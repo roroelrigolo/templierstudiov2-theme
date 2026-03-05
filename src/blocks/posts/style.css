@@ -1,0 +1,109 @@
+/*style1*/
+
+.posts-block.style1 {
+    display: flex;
+    gap: 20px;
+    max-height: 456px;
+}
+
+.posts-block.style1 .lasted,
+.posts-block.style1 .other {
+    width: 100%;
+}
+
+.posts-block.style1 .lasted .post-thumbnail img {
+    width: 100%;
+    height: 100%;
+    max-height: 300px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    object-fit: cover;
+}
+
+.posts-block.style1 .lasted .content {
+    background-color: var(--color-light);
+    padding: 20px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.posts-block.style1 .other {
+    display: grid;
+    grid-auto-rows: calc((100% - 20px) / 2);
+    gap: 20px;
+}
+
+.posts-block.style1 .other .post-item {
+    display: flex;
+}
+
+.posts-block.style1 .other .post-thumbnail,
+.posts-block.style1 .other .content {
+    width: 100%;
+}
+
+.posts-block.style1 .other .post-thumbnail img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    object-fit: cover;
+}
+
+.posts-block.style1 .other .content {
+    display: grid;
+    align-content: space-between;
+    background-color: var(--color-light);
+    padding: 20px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.posts-block.style1 .lasted .content,
+.posts-block.style1 .other .content {
+    color: var(--color-secondary)!important;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.posts-block.style1 .lasted .content .post-title,
+.posts-block.style1 .other .content .post-title {
+    font-family: var(----font-body)!important;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: bold;
+    margin-bottom: 5px!important;
+}
+
+.posts-block.style1 .lasted .content .post-link,
+.posts-block.style1 .other .content .post-link {
+    color: var(--color-primary)!important;
+    font-weight: bold;
+}
+
+.posts-block.style1 .lasted,
+.posts-block.style1 .other .post-item {
+    position: relative;
+    bottom: 0;
+    transition: bottom 0.3s ease;
+}
+
+.posts-block.style1 .lasted:hover,
+.posts-block.style1 .other .post-item:hover {
+    bottom: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+    .posts-block.style1 {
+        display: grid;
+        max-height: none;
+    }
+    .posts-block.style1 .other .post-item {
+        display: grid;
+    }
+    .posts-block.style1 .other .post-thumbnail img {
+        max-height: 200px;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+    }
+}

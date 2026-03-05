@@ -1,0 +1,13 @@
+{
+    "apiVersion": 2,
+    "name": "templierstudiov2-theme/menu-item",
+    "title": "Menu item",
+    "category": "custom-category",
+    "icon": "admin-links",
+    "description": "Bloc menu item",
+    "supports": {
+        "align": true,
+        "html": false
+    },
+    "editorScript": "file:./index.js"
+}
