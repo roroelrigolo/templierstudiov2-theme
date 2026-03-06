@@ -23,9 +23,19 @@ body {
 .bille-4 {
     position: fixed;
     border-radius: 50% !important;
-    background: radial-gradient(circle, var(--color-1), var(--color-dark));
+    background: radial-gradient(circle, var(--color-5), var(--color-dark));
     opacity: 0.2;
     filter: blur(40px);
+    pointer-events: none;
+}
+
+.home {
+    .bille-1,
+    .bille-2,
+    .bille-3,
+    .bille-4 {
+        background: radial-gradient(circle, var(--color-1), var(--color-dark));
+    }
 }
 
 .bille-1 {

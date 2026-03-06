@@ -106,3 +106,70 @@ header #menu-menu-principal .sub-menu {
         opacity: 1; 
     }
 }
+
+//CUSTOM
+.an-custom-slide-left {
+    transform: translateX(-200px);
+    opacity: 0;
+    will-change: transform, opacity;
+
+    &.visible {
+        animation: an-custom-slide-left 1s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    }
+}
+
+@keyframes an-custom-slide-left {
+    0% {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.an-custom-slide-right {
+    transform: translateX(200px);
+    opacity: 0;
+    will-change: transform, opacity;
+
+    &.visible {
+        animation: an-custom-slide-right 1s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    }
+}
+
+@keyframes an-custom-slide-right {
+    0% {
+        transform: translateX(200px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.an-custom-slide-top {
+    transform: translateY(200px);
+    opacity: 0;
+    will-change: transform, opacity;
+
+    &.visible {
+        animation: an-custom-slide-top 1s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    }
+}
+
+@keyframes an-custom-slide-top {
+    0% {
+        transform: translateY(200px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

@@ -20,6 +20,7 @@ function theme_enqueue_styles()
     wp_enqueue_style('header-style', get_template_directory_uri() . '/assets/css/header.css');
     wp_enqueue_style('footer-style', get_template_directory_uri() . '/assets/css/footer.css');
     wp_enqueue_style('home-style', get_template_directory_uri() . '/assets/css/home.css');
+    wp_enqueue_style('page-114-style', get_template_directory_uri() . '/assets/css/page-114.css');
 
     wp_enqueue_style('bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css');
 }

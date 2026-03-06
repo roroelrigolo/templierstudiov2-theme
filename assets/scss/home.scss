@@ -65,10 +65,11 @@
         }
 
         .formulaire {
-            background: #ef44441f !important;
+            background: #1c1921 !important;
 
-            .forminator-ui {
+            form.forminator-custom-form-102 {
                 display: block !important;
+                margin-block: 0 !important;
 
                 .forminator-field {
                     label {
@@ -76,8 +77,128 @@
                         font-family: var(--font-1) !important;
                         font-size: 1rem !important;
                     }
+
+                    input,
+                    textarea {
+                        font-family: var(--font-1) !important;
+                        background-color: #18141a;
+                        border: solid 1px #ffffff38 !important;
+                        border-radius: 10px !important;
+                        padding: 15px;
+                        color: var(--color-light) !important;
+                    }
+                }
+
+                .forminator-row-last {
+                    .forminator-field {
+                        display: flex;
+                        justify-content: flex-end;
+
+                        .forminator-button {
+                            display: flex;
+                            gap: 10px;
+                            align-items: center;
+                            cursor: pointer;
+                            border-radius: 10px;
+                            padding: 16px 32px !important;
+                            border: none;
+                            white-space: nowrap;
+                            font-family: var(--font-1) !important;
+                            font-size: 1.125rem !important;
+                            font-weight: 700 !important;
+                            text-decoration: none !important;
+                            background-color: var(--color-1);
+                            color: var(--color-light) !important;
+                            box-shadow:
+                                0 10px 15px -3px rgba(220, 38, 38, 0.25),
+                                0 4px 6px -4px rgba(220, 38, 38, 0.25);
+                            transition: all 0.4s ease;
+
+                            &::after {
+                                content: "";
+                                display: block;
+                                position: relative;
+                                background-image: url(/wp-content/uploads/2026/03/icon-send-blanc.svg);
+                                background-repeat: no-repeat;
+                                background-size: contain;
+                                min-width: 20px;
+                                width: 20px;
+                                height: 20px;
+                            }
+
+                            &:hover {
+                                background-color: var(--color-3);
+                                color: var(--color-light) !important;
+                                transform: scale(1.1);
+                            }
+                        }
+                    }
                 }
             }
+        }
+    }
+}
+
+@media (max-width: 1400px) {
+    .home {
+        .section-1 {
+            padding-inline: 10rem !important;
+        }
+
+        .section-2 {
+            padding-inline: 10rem !important;
+        }
+
+        .section-3 {
+            padding-inline: 10rem !important;
+        }
+
+        .section-4 {
+            padding-inline: 10rem !important;
+        }
+    }
+}
+
+@media (max-width: 1260px) {
+    .home {
+        .section-1 {
+            padding-inline: 5rem !important;
+        }
+
+        .section-2 {
+            padding-inline: 5rem !important;
+        }
+
+        .section-3 {
+            padding-inline: 5rem !important;
+        }
+
+        .section-4 {
+            padding-inline: 5rem !important;
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .home {
+        .section-1 {
+            padding-inline: 2rem !important;
+            height: auto !important;
+        }
+
+        .section-2 {
+            padding-inline: 2rem !important;
+            padding-block: 4rem !important;
+        }
+
+        .section-3 {
+            padding-inline: 2rem !important;
+            padding-block: 4rem !important;
+        }
+
+        .section-4 {
+            padding-inline: 2rem !important;
+            padding-block: 4rem !important;
         }
     }
 }

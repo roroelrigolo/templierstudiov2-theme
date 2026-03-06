@@ -59,6 +59,8 @@ registerBlockType('templierstudiov2-theme/button', {
                                 { label: 'Style 1', value: 'btn-1' },
                                 { label: 'Style 2', value: 'btn-2' },
                                 { label: 'Style 3', value: 'btn-3' },
+                                { label: 'Style 4', value: 'btn-4' },
+                                { label: 'Style 5', value: 'btn-5' },
                             ]}
                             onChange={(newButtonStyle) => setAttributes({ buttonStyle: newButtonStyle })}
                         />

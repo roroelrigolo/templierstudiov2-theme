@@ -4,3 +4,19 @@ header {
     backdrop-filter: blur(4px);
     z-index: 50;
 }
+
+@media (max-width: 1260px) {
+    header {
+        >.block-section {
+            padding-inline: 5rem !important;
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    header {
+        >.block-section {
+            padding-inline: 2rem !important;
+        }
+    }
+}
