@@ -22,6 +22,20 @@
     }
 }
 
+body {
+    &:not(.home) {
+        .scroll-to-top {
+            border: solid 1px var(--color-4);
+            color: var(--color-4);
+
+            &:hover {
+                border: solid 1px var(--color-4);
+                background-color: var(--color-4);
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 768px) {
     .scroll-to-top {
         right: 20px;

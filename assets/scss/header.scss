@@ -3,6 +3,22 @@ header {
     width: 100%;
     backdrop-filter: blur(4px);
     z-index: 50;
+
+    .lang-group {
+        display: flex;
+        gap: 5px;
+
+        .lang-item {
+            display: block;
+
+            &.current-lang {
+                img {
+                    width: 22px !important;
+                    height: 15px !important;
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: 1260px) {

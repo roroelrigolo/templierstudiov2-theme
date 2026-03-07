@@ -192,4 +192,25 @@ add_action('wp_footer', 'scroll_to_top');
 add_action('customize_register', function () { });
 
 /*CUSTOM*/
+
+function shortcode_lang_group() {
+    ob_start();
+    ?>
+    <div class="lang-group">
+        <?php
+        if (function_exists('pll_the_languages')) {
+            pll_the_languages(array(
+                'dropdown' => 0,
+                'show_flags' => 1,
+                'show_names' => 0,
+            ));
+        }
+        ?>
+    </div>
+    <?php
+    return ob_get_clean();
+}
+
+add_shortcode('lang_group', 'shortcode_lang_group');
+
 ?>

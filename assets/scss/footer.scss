@@ -1,3 +1,11 @@
 footer {
     border-top: solid 0.5px #ffffff79;
 }
+
+body {
+    &:not(.home) {
+        p[style*="color:#fecaca"] {
+            color: #e3cafe !important;
+        }
+    }
+}

@@ -17,3 +17,17 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const section = document.querySelector(".home .section-2");
+  if (section) {
+    section.id = "projets";
+  }
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  const section = document.querySelector(".home .section-4");
+  if (section) {
+    section.id = "contact";
+  }
+});

@@ -30,6 +30,7 @@ body {
 }
 
 .home {
+
     .bille-1,
     .bille-2,
     .bille-3,
@@ -77,13 +78,19 @@ ul {
 }
 
 .wp-site-blocks a {
-    color: var(--color-2) !important;
+    color: var(--color-5) !important;
     text-underline-offset: 4px;
     transition: color ease 0.3s;
     font-family: var(--txt-p-font-family);
     font-size: var(--txt-p-font-size);
     line-height: var(--txt-p-line-height);
     font-weight: var(--txt-p-font-weight);
+}
+
+.home {
+    .wp-site-blocks a {
+        color: var(--color-2) !important;
+    }
 }
 
 .wp-site-blocks a:hover {
