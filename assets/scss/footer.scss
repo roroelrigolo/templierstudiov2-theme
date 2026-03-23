@@ -9,3 +9,31 @@ body {
         }
     }
 }
+
+@media (max-width: 1260px) {
+    footer {
+        >.block-section {
+            padding-inline: 5rem !important;
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    footer {
+        >.block-section {
+            padding-inline: 2rem !important;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    footer {
+        >.block-section {
+            padding-inline: 1rem !important;
+
+            p {
+                text-align: center !important;
+            }
+        }
+    }
+}

@@ -1,5 +1,19 @@
-.page-id-114 {
+.page-id-114,
+.page-id-207,
+.page-id-217 {
     .section-1 {
+
+        .slick-dots {
+            padding-left: 0 !important;
+
+            li {
+                &.slick-active {
+                    button {
+                        background-color: var(--color-4);
+                    }
+                }
+            }
+        }
 
         .btn-4,
         .btn-5 {
@@ -29,6 +43,51 @@
             &::before {
                 background-image: url(/wp-content/uploads/2026/03/icon-android-blanc.svg);
             }
+        }
+    }
+}
+
+@media (max-width: 1400px) {
+
+    .page-id-114,
+    .page-id-207,
+    .page-id-217 {
+        .section-1 {
+            padding-inline: 10rem !important;
+        }
+    }
+}
+
+@media (max-width: 1260px) {
+
+    .page-id-114,
+    .page-id-207,
+    .page-id-217 {
+        .section-1 {
+            padding-inline: 5rem !important;
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .page-id-114,
+    .page-id-207,
+    .page-id-217 {
+        .section-1 {
+            padding-inline: 2rem !important;
+            padding-bottom: 4rem !important;
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .page-id-114,
+    .page-id-207,
+    .page-id-217 {
+        .section-1 {
+            padding-inline: 1rem !important;
         }
     }
 }
