@@ -15,6 +15,11 @@
 
 body {
     background-color: var(--color-dark) !important;
+    overflow-x: hidden;
+}
+
+.wp-site-blocks {
+    overflow-x: hidden;
 }
 
 .bille-1,

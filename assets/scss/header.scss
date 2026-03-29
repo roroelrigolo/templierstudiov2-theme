@@ -36,3 +36,23 @@ header {
         }
     }
 }
+
+@media (max-width: 768px) {
+    header {
+        >.block-section {
+            >div {
+                >.block-section {
+                    >div {
+                        >.block-section {
+                            &:first-of-type {
+                                p {
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

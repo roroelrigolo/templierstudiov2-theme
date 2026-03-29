@@ -27,3 +27,81 @@
     line-height: 1.2;
     font-weight: 400;
 }
+
+
+@media (max-width: 1260px) {
+    .txt-style-h1 {
+        font-size: 3.2rem;
+    }
+
+    .txt-style-h2 {
+        font-size: 2.5rem;
+    }
+
+    .txt-style-p {
+        font-size: 1.05rem;
+    }
+
+    .txt-style-sous-titre {
+        font-size: 1.15rem;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .txt-style-h1 {
+        font-size: 2.6rem;
+    }
+
+    .txt-style-h2 {
+        font-size: 2.1rem;
+    }
+
+    .txt-style-p {
+        font-size: 1rem;
+    }
+
+    .txt-style-sous-titre {
+        font-size: 1.1rem;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .txt-style-h1 {
+        font-size: 2.2rem;
+        line-height: 1.1;
+    }
+
+    .txt-style-h2 {
+        font-size: 1.8rem;
+    }
+
+    .txt-style-p {
+        font-size: 0.95rem;
+    }
+
+    .txt-style-sous-titre {
+        font-size: 1rem;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .txt-style-h1 {
+        font-size: 1.8rem;
+    }
+
+    .txt-style-h2 {
+        font-size: 1.5rem;
+    }
+
+    .txt-style-p {
+        font-size: 0.9rem;
+        line-height: 1.6;
+    }
+
+    .txt-style-sous-titre {
+        font-size: 0.95rem;
+    }
+}
